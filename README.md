@@ -11,12 +11,13 @@ Cypress is a next generation front end testing tool built for the modern web. Th
    
 #install cypress-mochawesome-reporter
 1. npm i --save-dev cypress-mochawesome-reporter
+
 2. Change cypress reporter & setup hooks
 
 Edit config file (cypress.config.js by default)
 
-const { defineConfig } = require('cypress');
 
+const { defineConfig } = require('cypress');
 module.exports = defineConfig({
   reporter: 'cypress-mochawesome-reporter',
   e2e: {
@@ -26,11 +27,15 @@ module.exports = defineConfig({
   },
 });
 
+
 3. Add to cypress/support/e2e.js
 
  import 'cypress-mochawesome-reporter/register';
+
+ 
 4. (optional, if your are using cypress-cucumber-preprocessor) Add to cypress/support/step_definitions/index.js
 
 import 'cypress-mochawesome-reporter/cucumberSupport';
+
 
 5. npx cypress run

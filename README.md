@@ -1,5 +1,9 @@
 ![image](https://github.com/alamin622/Cypress-Project/assets/56792623/810c0755-9529-4eef-be9d-59f83c7c387c)
 
+# Videos
+1. AddToCart [Link Text]([URL](https://drive.google.com/file/d/1IhLUQuInS8PwqID52nO5Ys_DcNvlpIks/view?usp=sharing)
+2. Login [Link Text]([URL](https://drive.google.com/file/d/1zvMmR-ZBp9mUGRwX9E0n0JNxRsN7OumX/view?usp=sharing)
+
 
 # Cypress-Automation
 Cypress is a next generation front end testing tool built for the modern web. This is a sample project which you can use to start your E2E testing with Cypress.

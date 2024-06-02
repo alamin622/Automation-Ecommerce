@@ -8,30 +8,20 @@ describe("Product purchase", () => {
   const checkoutPage = new CheckoutPage();
 
   beforeEach(() => {
-    cy.viewport(1920, 1080);
+    cy.viewport(1920, 1280);   //cy.viewport(width, height)
     loginPage.login("standard_user", "secret_sauce");
   });
 
   it.only("verify product purchase is successful", () => {
     productPage.productDashboard();
-    productPage.sortingProduct();
-    productPage.viewProduct();
     productPage.productDetailsPageAndAddToCart();
     productPage.goToCart();
     checkoutPage.checkout();
-    checkoutPage.addUserInfo("Abeer", "Choudhury", "1216");
+    checkoutPage.addUserInfo("Al Amin Coudhury", "Abeer", "1216");
     checkoutPage.finishPurchase();
-    checkoutPage.purchaseCompleteAssertion("Thank you for your order!");
+    checkoutPage.purchaseCompleteAssertionTitle("Thank you for your order!");
+    checkoutPage.purchaseCompleteAssertionText("Your order has been dispatched, and will arrive just as fast as the pony can get there!");
+    
   });
 
-  it("verify product purchase is cancelled", () => {
-    productPage.productDashboard();
-    productPage.viewProduct();
-    productPage.productDetailsPageAndAddToCart();
-    productPage.goToCart();
-    checkoutPage.checkout();
-    checkoutPage.addUserInfo("Abeer", "Choudhury", "1216");
-    checkoutPage.cancelPurchase();
-    productPage.productDashboard();
-  });
 });

@@ -1,7 +1,4 @@
-node_modules
-.tmp
-.sass-cache
-.DS_Store
-npm-debug.log
-screenshots
-videos
+node_modules/
+cypress/screenshots/
+cypress/videos/
+

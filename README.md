@@ -8,8 +8,8 @@ A suite of automation tests written with JavaScript and automated with Cypress J
 4.	Google Chrome as test browser
 
 # Setup and installation 🛠️
-1. NodeJS Download and install (https://nodejs.org/en/download/prebuilt-installer)
-2. Setup Environment(https://www.youtube.com/watch?v=Pa-YPdl1rX8&ab_channel=Tutorialspoint)
+1. [NodeJS Download and install](https://nodejs.org/en/download/prebuilt-installer)
+2. [Setup Environment](https://www.youtube.com/watch?v=Pa-YPdl1rX8&ab_channel=Tutorialspoint)
    
 1. Download the Zip code
 2. Extract the code
@@ -36,7 +36,7 @@ Below is the video recording of the automation tests execution, made for automat
 # Report
 - [HTML FILE](https://drive.google.com/file/d/1iti43zybKtExUDTeUTaXrnftNkGDg97s/view?usp=drive_link)
 
-![image](file:///C:/Users/Al%20amin%20Choudhury/Downloads/2024-06-02_23-21-15.png)
+![2024-06-02_23-21-15](https://github.com/alamin622/SQA-Assignments/assets/56792623/46053776-7400-49fa-bfa1-19daf1aa1604)
 # Explanation of Login Test Cases
 
 ## 1. Testing with valid credentials:

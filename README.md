@@ -29,15 +29,14 @@ in Command Prompt and configure the framework for this project: selecting the ty
 Below is the video recording of the automation tests execution, made for automated different test cases on Saucedemo.com website.
 
 # Videos
--  [PurchaseProducts] (https://drive.google.com/file/d/1kiv1hPBuiVOcl34_FvJJg9sgOW6fWAnZ/view?usp=drive_link)
--  [Login] (https://drive.google.com/file/d/1g_tAi-WB_EbkiUotpCZZ_gpB9x7W7wxt/view?usp=drive_link)
--  [SortsProducts] (https://drive.google.com/file/d/1zttRB_nRcGm80NDSt-AxPzPNXhZDFJD6/view?usp=drive_link)
+-  [PurchaseProducts](https://drive.google.com/file/d/1kiv1hPBuiVOcl34_FvJJg9sgOW6fWAnZ/view?usp=drive_link)
+-  [Login](https://drive.google.com/file/d/1g_tAi-WB_EbkiUotpCZZ_gpB9x7W7wxt/view?usp=drive_link)
+-  [SortsProducts](https://drive.google.com/file/d/1zttRB_nRcGm80NDSt-AxPzPNXhZDFJD6/view?usp=drive_link)
 
 # Report
-- [HTML FILE] (https://drive.google.com/file/d/1iti43zybKtExUDTeUTaXrnftNkGDg97s/view?usp=drive_link)
+- [HTML FILE](https://drive.google.com/file/d/1iti43zybKtExUDTeUTaXrnftNkGDg97s/view?usp=drive_link)
 
-![image] (file:///C:/Users/Al%20amin%20Choudhury/Downloads/2024-06-02_23-21-15.png)
-
+![image](file:///C:/Users/Al%20amin%20Choudhury/Downloads/2024-06-02_23-21-15.png)
 # Explanation of Login Test Cases
 
 ## 1. Testing with valid credentials:

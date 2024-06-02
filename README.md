@@ -1,4 +1,4 @@
-# Explanation of Login Test Cases
+Explanation of Login Test Cases
 1.	Testing with valid credentials:
 Objective: Verify that users can successfully log in with valid credentials.
 Functionality: The test logs in using the “standard_user” username and the correct password (“secret_sauce”).
